@@ -1,0 +1,30 @@
+{
+  "name": "finjourney-backend",
+  "version": "1.0.0",
+  "description": "Finjourney backend ",
+  "homepage": "https://github.com/gourishnarang/FinJourney-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/gourishnarang/FinJourney-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gourishnarang/FinJourney-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Dhairya Sehgal",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
